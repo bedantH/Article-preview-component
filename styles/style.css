@@ -153,9 +153,11 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
 
     .centered-cont{
-        margin-left: 10px;
         height: 640px;
         width: 400px;
         margin-bottom: 120px;
